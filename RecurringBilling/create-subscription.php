@@ -19,7 +19,7 @@ function createSubscription($intervalLength)
 
     // Subscription Type Info
     $subscription = new AnetAPI\ARBSubscriptionType();
-    $subscription->setName("Sample Subscription");
+    $subscription->setName('The sample subscrition for donation process.');
 
     $interval = new AnetAPI\PaymentScheduleType\IntervalAType();
     $interval->setLength($intervalLength);
